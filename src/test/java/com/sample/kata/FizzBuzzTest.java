@@ -35,6 +35,13 @@ public class FizzBuzzTest {
         Assert.assertTrue(result.contains("Buzz"));
     }
 
+    //Test to return fizzbuzz if number divisible by 3 & 5
+    @Test
+    public void printFizzBuzz() {
+        String result = new FizzBuzz().printNumber();
+        Assert.assertTrue(result.contains("FizzBuzz"));
+    }
+
 
 
 }
