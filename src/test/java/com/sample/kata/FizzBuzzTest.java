@@ -28,4 +28,13 @@ public class FizzBuzzTest {
         Assert.assertTrue(result.contains("Fizz"));
     }
 
+    //Test to return fizz if number divisible by 5
+    @Test
+    public void printBuzz() {
+        String result = new FizzBuzz().printNumber();
+        Assert.assertTrue(result.contains("Buzz"));
+    }
+
+
+
 }
